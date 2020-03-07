@@ -1,0 +1,5 @@
+- Copy __.env.example__ file to __.env__ and edit database credentials there
+- Run __composer install__
+- Run __php artisan key:generate__
+- Run __php artisan migrate --seed__  
+- You can login to adminpanel with default credentials __admin@test.loc__ - __password__
